@@ -1,0 +1,328 @@
+@media (max-width:599px) and (min-width:320px) {
+    body{
+        background-color: grey;
+    }
+    .topnav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: mediumseagreen;
+        overflow: hidden;
+        grid-area: top;
+    }
+    .topnav a {
+        float: left;
+        padding: 14px 16px;
+        text-align: center;
+        color: white;
+      }
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+    .topnav a.MAD {
+        background-color: #069B50;
+        color: white;
+      }
+      .login{
+        display: inline-block;
+    }
+    .login input{
+        width: 100% ;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+    }
+    .submit{
+        background-color: #04AA6D;
+        font-size: 20px;
+        color: aliceblue;
+        border: none;
+        padding: 16px;
+        border-radius: 4px;
+        transition-duration: 0.4s;
+    }
+    .submit:hover{
+        background-color: white;
+        border: #04AA6D;
+        color: #04AA6D;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    #THECALC {
+        display: grid;
+        grid-template-areas:
+            "one two three plus"
+            "four five six minus"
+            "seven eight nine lookleft"
+            "zero zero lookright equal";
+    }
+      #THECALC {
+        width: 300px;
+    }
+    
+    #one { grid-area: one; }
+    #two { grid-area: two; }
+    #three { grid-area: three; }
+    #plus { grid-area: plus; }
+    #four { grid-area: four; }
+    #five { grid-area: five; }
+    #six { grid-area: six; }
+    #minus { grid-area: minus; }
+    #seven { grid-area: seven; }
+    #eight { grid-area: eight; }
+    #nine { grid-area: nine; }
+    #lookleft { grid-area: lookleft; }
+    #zero { grid-area: zero; }
+    #lookright { grid-area: lookright; }
+    #equal { grid-area: equal; }
+}
+@media(min-width: 901px){
+    body{
+        background-color: grey;
+    }
+    .topnav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        background-color: mediumseagreen;
+        overflow: hidden;
+        grid-area: top;
+    }
+    .topnav a {
+        float: left;
+        padding: 14px 16px;
+        text-align: center;
+        color: white;
+      }
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+    .topnav a.MAD {
+        background-color: #069B50;
+        color: white;
+      }
+    .login{
+        display: inline-block;
+    }
+    .login input{
+        width: 100% ;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+    }
+    .submit{
+        background-color: #04AA6D;
+        font-size: 20px;
+        color: aliceblue;
+        border: none;
+        padding: 16px;
+        border-radius: 4px;
+        transition-duration: 0.4s;
+    }
+    #THECALC {
+        display: grid;
+        grid-template-areas:
+            "one two three plus"
+            "four five six minus"
+            "seven eight nine lookleft"
+            "zero zero lookright equal";
+    }
+      #THECALC {
+        width: 300px;
+    }
+    
+    #one { grid-area: one; }
+    #two { grid-area: two; }
+    #three { grid-area: three; }
+    #plus { grid-area: plus; }
+    #four { grid-area: four; }
+    #five { grid-area: five; }
+    #six { grid-area: six; }
+    #minus { grid-area: minus; }
+    #seven { grid-area: seven; }
+    #eight { grid-area: eight; }
+    #nine { grid-area: nine; }
+    #lookleft { grid-area: lookleft; }
+    #zero { grid-area: zero; }
+    #lookright { grid-area: lookright; }
+    #equal { grid-area: equal; }
+    .submit:hover{
+        background-color: white;
+        border: #04AA6D;
+        color: #04AA6D;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+}
+@media(max-width: 320px){
+    body{
+        background-color: grey;
+    }
+    .topnav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: mediumseagreen;
+        overflow: hidden;
+        grid-area: top;
+    }
+    .topnav a {
+        float: left;
+        padding: 14px 16px;
+        text-align: center;
+        color: white;
+      }
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+    .topnav a.MAD {
+        background-color: #069B50;
+        color: white;
+      }
+      .login{
+        display: inline-block;
+    }
+    .login input{
+        width: 100% ;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+    }
+    .submit{
+        background-color: #04AA6D;
+        font-size: 20px;
+        color: aliceblue;
+        border: none;
+        padding: 16px;
+        border-radius: 4px;
+        transition-duration: 0.4s;
+    }
+    .submit:hover{
+        background-color: white;
+        border: #04AA6D;
+        color: #04AA6D;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    #THECALC {
+        display: grid;
+        grid-template-areas:
+            "one two three plus"
+            "four five six minus"
+            "seven eight nine lookleft"
+            "zero zero lookright equal";
+    }
+      #THECALC {
+        width: 300px;
+    }
+    
+    #one { grid-area: one; }
+    #two { grid-area: two; }
+    #three { grid-area: three; }
+    #plus { grid-area: plus; }
+    #four { grid-area: four; }
+    #five { grid-area: five; }
+    #six { grid-area: six; }
+    #minus { grid-area: minus; }
+    #seven { grid-area: seven; }
+    #eight { grid-area: eight; }
+    #nine { grid-area: nine; }
+    #lookleft { grid-area: lookleft; }
+    #zero { grid-area: zero; }
+    #lookright { grid-area: lookright; }
+    #equal { grid-area: equal; }
+}
+@media(min-width: 600px) and (max-width: 900px){
+    body{
+        background-color: grey;
+    }
+    .topnav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: mediumseagreen;
+        overflow: hidden;
+        grid-area: top;
+    }
+    .topnav a {
+        float: left;
+        padding: 14px 16px;
+        text-align: center;
+        color: white;
+      }
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+    .topnav a.MAD {
+        background-color: #069B50;
+        color: white;
+      }
+      .login{
+        display: inline-block;
+    }
+    .login input{
+        width: 100% ;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+    }
+    .submit{
+        background-color: #04AA6D;
+        font-size: 20px;
+        color: aliceblue;
+        border: none;
+        padding: 16px;
+        border-radius: 4px;
+        transition-duration: 0.4s;
+    }
+    .submit:hover{
+        background-color: white;
+        border: #04AA6D;
+        color: #04AA6D;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    #THECALC {
+        display: grid;
+        grid-template-areas:
+            "one two three plus"
+            "four five six minus"
+            "seven eight nine lookleft"
+            "zero zero lookright equal";
+    }
+    #THECALC {
+        width: 300px;
+    }
+    
+    #one { grid-area: one; }
+    #two { grid-area: two; }
+    #three { grid-area: three; }
+    #plus { grid-area: plus; }
+    #four { grid-area: four; }
+    #five { grid-area: five; }
+    #six { grid-area: six; }
+    #minus { grid-area: minus; }
+    #seven { grid-area: seven; }
+    #eight { grid-area: eight; }
+    #nine { grid-area: nine; }
+    #lookleft { grid-area: lookleft; }
+    #zero { grid-area: zero; }
+    #lookright { grid-area: lookright; }
+    #equal { grid-area: equal; }
+}

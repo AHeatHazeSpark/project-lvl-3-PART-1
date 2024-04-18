@@ -1,0 +1,1274 @@
+/* media queries fr fr */
+ @media (max-width:599px) and (min-width:320px) {
+    /* uuhhh bigger phone*/
+    h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: whitesmoke;
+      }
+    body{
+     background-color: #393E45 !important;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     font-family: sans-serif;
+ }
+ /* this code for nav bar */
+ .topnav{
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between;
+     flex-wrap: wrap;
+     background-color: mediumseagreen;
+     overflow: hidden;
+ }
+ .topnav a {
+     float: left;
+     padding: 14px 16px;
+     text-align: center;
+     color: white;
+     text-decoration: none;
+   }
+ .topnav a:hover {
+     background-color: white;
+     color: black;
+ }
+ .topnav a.MAD {
+     background-color: #069B50;
+     color: white;
+   }
+ /* container and its' cards */
+ .container{
+     display: grid;
+     grid-template-areas:
+     "main1"
+     "main2";
+     row-gap: 1ch;
+     column-gap:1ch;  
+ }
+ .blogcard{
+     border: 1px;
+     border-color: black;
+     background-color:whitesmoke;
+ 
+ }
+ #B1{
+     grid-area: main1;
+ }
+ #B2{
+     grid-area: main2;
+ }
+ 
+ /* footer */
+ .footer{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap; 
+     background-color: mediumseagreen;
+     justify-content: center; 
+     margin-top: auto; 
+ }
+ }
+ @media(min-width: 901px){
+ /* uuhhh tablet ig or big screen */
+ h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: whitesmoke;
+  }
+  body{
+    background-color: #393E45 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+ /* this code for nav bar */
+ .topnav{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     flex-wrap: nowrap;
+     background-color: mediumseagreen;
+     overflow: hidden;
+ }
+ .topnav a {
+     float: left;
+     padding: 14px 16px;
+     text-align: center;
+     color: white;
+   }
+ .topnav a:hover {
+     background-color: white;
+     color: black;
+ }
+ .topnav a.MAD {
+     background-color: #069B50;
+     color: white;
+   }
+ /* container and its' cards */
+ .container{
+     display: grid;
+     grid-template-areas:
+     "main1  . main2 ";
+     grid-row: 2px;
+ }
+ .blogcard{
+     border: 1px;
+     border-color: black;
+     background-color:whitesmoke;
+ 
+ }
+ #B1{
+     grid-area: main1;
+ }
+ #B2{
+     grid-area: main2;
+ }
+ 
+ /* footer */
+ .footer{
+     display: flex;
+     flex-wrap: nowrap; 
+     background-color: mediumseagreen;
+    justify-content: center;
+    margin-top: auto;
+ } 
+ }
+ @media(max-width: 320px){
+ /* phone */
+ h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: whitesmoke;
+  }
+  body{
+    background-color: #393E45 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+ /* this code for nav bar */
+ .topnav{
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between;
+     flex-wrap: wrap;
+     background-color: mediumseagreen;
+     overflow: hidden;
+ }
+ .topnav a {
+     float: left;
+     padding: 14px 16px;
+     text-align: center;
+     color: white;
+   }
+ .topnav a:hover {
+     background-color: white;
+     color: black;
+ }
+ .topnav a.MAD {
+     background-color: #069B50;
+     color: white;
+   }
+ /* container and its' cards */
+ .container{
+     display: grid;
+     grid-template-areas: 
+     "main1"
+     "main2";
+     row-gap: 1ch;
+ }
+ .blogcard{
+     border: 1px;
+     border-color: black;
+     background-color:whitesmoke;
+ 
+ }
+ #B1{
+     grid-area: main1;
+ }
+ #B2{
+     grid-area: main2;
+ }
+ 
+ /* footer */
+ .footer{
+     display: flex;
+     flex-wrap: nowrap; 
+     background-color: mediumseagreen;
+     justify-content: center;
+     margin-top: auto;
+ }
+ }
+ @media(min-width: 600px) and (max-width: 900px){
+  /* pc ig  */
+  h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: whitesmoke;
+  }
+  body{
+    background-color: #393E45 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+ }
+  /* this code for nav bar */
+ .topnav{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     flex-wrap: nowrap;
+     background-color: mediumseagreen;
+     overflow: hidden;
+     grid-area: top;
+ }
+ .topnav a {
+     float: left;
+     padding: 14px 16px;
+     text-align: center;
+     color: white;
+   }
+ .topnav a:hover {
+     background-color: white;
+     color: black;
+ }
+ .topnav a.MAD {
+     background-color: #069B50;
+     color: white;
+   }
+ /* container and its' cards */
+ .container{
+     display: grid;
+     grid-template-areas:
+     "main1 "
+     "main2 ";
+     row-gap: 1ch;
+ }
+ .blogcard{
+     border: 1px;
+     border-color: black;
+     background-color: whitesmoke;
+ 
+ }
+ #B1{
+     grid-area: main1;
+ }
+ #B2{
+     grid-area: main2;
+ }
+ 
+ /* footer */
+ .footer{
+     display: flex;
+     flex-wrap: nowrap; 
+     background-color: mediumseagreen;
+     justify-content: center;
+     margin-top: auto;
+ }
+}  
+ /* Hmm i wonder what are those empty lines for.... */
+ /* probably a zip bomb? nah  */
+ /* scroll for not a surprise (dont worry it just text)*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ ランドリー今日はガラ空きでラッキーデイ
+ かったりい油汚れもこれでバイバイ
+ 誰だ誰だ頭の中 呼びかける声は
+ あれが欲しいこれが欲しいと歌っている
+ 幸せになりたい 楽して生きていたい
+ この手に掴みたい あなたのその胸の中
+ ハッピーで埋め尽くして レストインピースまで行こうぜ
+ いつかみた地獄もいいところ 愛をばら撒いて
+ アイラブユー貶してくれ 全部奪って笑ってくれマイハニー
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ なんか忘れちゃってんだ
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ 4443で外れる炭酸水
+ ハングリー拗らせて吐きそうな人生
+ 「止まない雨はない」より先に その傘をくれよ
+ あれが欲しい これが欲しい 全て欲しい ただ虚しい
+ 幸せになりたい 楽して生きていたい
+ 全部滅茶苦茶にしたい 何もかも消し去りたい
+ あなたのその胸の中
+ ラッキーで埋め尽くして レストインピースまで行こうぜ
+ 良い子だけ迎える天国じゃ どうも生きらんない
+ アイラブユー貶して奪って笑ってくれマイハニー
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ なんか忘れちゃってんだ
+ ハッピー ラッキー こんにちはベイビー
+ 良い子でいたい そりゃつまらない
+ ハッピーラッキー こんにちはベイビーソースイート
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ なんかすごい良い感じ
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star
+ 努力 未来 a beautiful star */

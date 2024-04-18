@@ -1,0 +1,224 @@
+@media (max-width:599px) and (min-width:320px){
+    body{
+        background-color: #393E45 !important;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .topnav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        background-color: mediumseagreen;
+        overflow: hidden;
+    }
+    .topnav a {
+        float: left;
+        padding: 14px 16px;
+        text-align: center;
+        color: white;
+      }
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+    .topnav a.MAD {
+        background-color: #069B50;
+        color: white;
+      }
+    .portfolio{
+        display: grid;
+        grid-template-columns:1fr 4fr;
+        position: relative;
+        border: black;
+        height: 150px;
+        width: 100%;
+        background-color:#069B50;
+    }
+    .portfolio img{
+        position: absolute;
+        height: 65px;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: nowrap; 
+        background-color: mediumseagreen;
+        justify-content: center;
+        margin-top: auto;
+        gap: 10px;
+    }
+    .content{
+        background-color: gray;
+        height: 500px;
+        font-size: larger;
+    }    
+}
+@media(min-width: 901px){
+    body{
+        background-color: #393E45 !important;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .topnav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        background-color: mediumseagreen;
+        overflow: hidden;
+    }
+    .topnav a {
+        float: left;
+        padding: 14px 16px;
+        text-align: center;
+        color: white;
+      }
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+    .topnav a.MAD {
+        background-color: #069B50;
+        color: white;
+      }
+    .portfolio{
+        display: grid;
+        grid-template-columns:1fr 4fr;
+        position: relative;
+        border: black;
+        height: 150px;
+        width: 100%;
+        background-color:#069B50;
+    }
+    .portfolio img{
+        position: absolute;
+        height: 150px;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: nowrap; 
+        background-color: mediumseagreen;
+        justify-content: center;
+        margin-top: auto;
+        gap: 10px;
+    }
+    .content{
+        background-color: gray;
+        height: 500px;
+        font-size: larger;
+    }    
+}    
+ @media(max-width: 320px){
+    body{
+        background-color: #393E45 !important;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .topnav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        background-color: mediumseagreen;
+        overflow: hidden;
+    }
+    .topnav a {
+        float: left;
+        padding: 14px 16px;
+        text-align: center;
+        color: white;
+      }
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+    .topnav a.MAD {
+        background-color: #069B50;
+        color: white;
+      }
+    .portfolio{
+        display: grid;
+        grid-template-columns:1fr 4fr;
+        position: relative;
+        border: black;
+        height: 150px;
+        width: 100%;
+        background-color:#069B50;
+    }
+    .portfolio img{
+        position: absolute;
+        height: 50px;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: nowrap; 
+        background-color: mediumseagreen;
+        justify-content: center;
+        margin-top: auto;
+        gap: 10px;
+    }
+    .content{
+        background-color: gray;
+        height: 500px;
+        font-size: larger;
+    }    
+ }
+ @media(min-width:600px) and (max-width: 900px){
+    body{
+        background-color: #393E45 !important;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .topnav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        background-color: mediumseagreen;
+        overflow: hidden;
+    }
+    .topnav a {
+        float: left;
+        padding: 14px 16px;
+        text-align: center;
+        color: white;
+      }
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+    .topnav a.MAD {
+        background-color: #069B50;
+        color: white;
+      }
+    .portfolio{
+        display: grid;
+        grid-template-columns:1fr 4fr;
+        position: relative;
+        border: black;
+        height: 150px;
+        width: 100%;
+        background-color:#069B50;
+    }
+    .portfolio img{
+        position: absolute;
+        height: 100px;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: nowrap; 
+        background-color: mediumseagreen;
+        justify-content: center;
+        margin-top: auto;
+        gap: 10px;
+    }
+    .content{
+        background-color: gray;
+        height: 500px;
+        font-size: larger;
+    }    
+}
